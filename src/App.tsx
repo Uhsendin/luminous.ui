@@ -1,5 +1,6 @@
 import { SiGithub } from 'react-icons/si'
 import Section from './components/site/Section'
+import Container from './components/site/Container'
 function App() {
 	return (
 		<div className="relative min-h-screen bg-white">
@@ -32,14 +33,7 @@ function App() {
 			{/* Main content */}
 			<main className="p-10 sm:px-16 lg:px-44">
 				<div className="mx-auto max-w-3xl space-y-20">
-					{/* Content container */}
-					<header>
-						<h1 className="black text-2xl font-bold text-gray-800 sm:text-3xl">
-							Component name
-						</h1>
-						<p className="mt-2 text-lg text-gray-800">Component description</p>
-					</header>
-					<div className="space-y-10 md:space-y-16">
+					<Container title="Component name" description="Component description">
 						<Section
 							title="Section heading"
 							description="Section description text"
@@ -55,15 +49,9 @@ function App() {
 							<div className="bg-blue-500/50 p-3">Component 1</div>
 							<div className="bg-blue-500/50 p-3">Component 1</div>
 						</Section>
-					</div>
-					{/* Content container */}
-					<header>
-						<h1 className="black text-2xl font-bold text-gray-800 sm:text-3xl">
-							Component name
-						</h1>
-						<p className="mt-2 text-lg text-gray-800">Component description</p>
-					</header>
-					<div className="space-y-10 md:space-y-16">
+					</Container>
+
+					<Container title="Component name" description="Component description">
 						<Section
 							title="Section heading"
 							description="Section description text"
@@ -79,7 +67,24 @@ function App() {
 							<div className="bg-blue-500/50 p-3">Component 1</div>
 							<div className="bg-blue-500/50 p-3">Component 1</div>
 						</Section>
-					</div>
+					</Container>
+					<Container title="Component name" description="Component description">
+						<Section
+							title="Section heading"
+							description="Section description text"
+						>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+						</Section>
+
+						<Section
+							title="Section heading"
+							description="Section description text"
+						>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+						</Section>
+					</Container>
 				</div>
 			</main>
 		</div>
