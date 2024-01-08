@@ -1,4 +1,5 @@
 import { SiGithub } from 'react-icons/si'
+import Section from './components/site/Section'
 function App() {
 	return (
 		<div className="relative min-h-screen bg-white">
@@ -39,44 +40,21 @@ function App() {
 						<p className="mt-2 text-lg text-gray-800">Component description</p>
 					</header>
 					<div className="space-y-10 md:space-y-16">
-						{/* Content section */}
-						<div>
-							{/* Section heading */}
-							<h2 className="text-lg font-bold text-gray-800">
-								Section heading
-							</h2>
-							{/* Section description */}
-							<p className="mt-1 text-gray-600">Section description text</p>
-							{/* Section preview */}
-							<div className="mt-3">
-								<div className="flex flex-col rounded-xl border p-6 shadow-sm">
-									<div className="flex flex-wrap gap-2">
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<Section
+							title="Section heading"
+							description="Section description text"
+						>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+						</Section>
 
-						{/* Content section */}
-						<div>
-							{/* Section heading */}
-							<h2 className="text-lg font-bold text-gray-800">
-								Section heading
-							</h2>
-							{/* Section description */}
-							<p className="mt-1 text-gray-600">Section description text</p>
-							{/* Section preview */}
-							<div className="mt-3">
-								<div className="flex flex-col rounded-xl border p-6 shadow-sm">
-									<div className="flex flex-wrap gap-2">
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* Content section */}
+						<Section
+							title="Section heading"
+							description="Section description text"
+						>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+						</Section>
 					</div>
 					{/* Content container */}
 					<header>
@@ -86,44 +64,21 @@ function App() {
 						<p className="mt-2 text-lg text-gray-800">Component description</p>
 					</header>
 					<div className="space-y-10 md:space-y-16">
-						{/* Content section */}
-						<div>
-							{/* Section heading */}
-							<h2 className="text-lg font-bold text-gray-800">
-								Section heading
-							</h2>
-							{/* Section description */}
-							<p className="mt-1 text-gray-600">Section description text</p>
-							{/* Section preview */}
-							<div className="mt-3">
-								<div className="flex flex-col rounded-xl border p-6 shadow-sm">
-									<div className="flex flex-wrap gap-2">
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						<Section
+							title="Section heading"
+							description="Section description text"
+						>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+						</Section>
 
-						{/* Content section */}
-						<div>
-							{/* Section heading */}
-							<h2 className="text-lg font-bold text-gray-800">
-								Section heading
-							</h2>
-							{/* Section description */}
-							<p className="mt-1 text-gray-600">Section description text</p>
-							{/* Section preview */}
-							<div className="mt-3">
-								<div className="flex flex-col rounded-xl border p-6 shadow-sm">
-									<div className="flex flex-wrap gap-2">
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-										<div className="bg-blue-500/50 p-3">Component 1</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* Content section */}
+						<Section
+							title="Section heading"
+							description="Section description text"
+						>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+							<div className="bg-blue-500/50 p-3">Component 1</div>
+						</Section>
 					</div>
 				</div>
 			</main>
