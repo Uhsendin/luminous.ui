@@ -1,8 +1,8 @@
 import { SiGithub } from 'react-icons/si'
 function App() {
 	return (
-		<div>
-			<header className="w-full border-b bg-white">
+		<div className="relative min-h-screen bg-white">
+			<header className="sticky top-0 z-50 w-full border-b bg-white">
 				<div className="flex h-16 items-center px-10 sm:px-16 lg:px-44">
 					<div className="mx-auto w-full max-w-3xl space-y-20">
 						<div className="flex justify-between">
