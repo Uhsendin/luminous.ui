@@ -14,6 +14,7 @@ function App() {
 					description="Primary action should be obvious. Solid, high-contrast background colors work great here."
 				>
 					<Button>Default</Button>
+					<Button disabled>Disabled</Button>
 				</Section>
 
 				<Section
@@ -21,6 +22,9 @@ function App() {
 					description="Secondary action should be clear but not prominent. Outline styles or lower-contrast background colors are great options"
 				>
 					<Button variant="secondary">Default</Button>
+					<Button variant="secondary" disabled>
+						Disabled
+					</Button>
 				</Section>
 
 				<Section
@@ -28,6 +32,10 @@ function App() {
 					description="Tertiary action should be discoverable but unobtrusive. Styling these actions like links is usually the best approach."
 				>
 					<Button variant="tertiary">Tertiary</Button>
+
+					<Button variant="tertiary" disabled>
+						Disabled
+					</Button>
 				</Section>
 				<Section
 					title="Destructive"
