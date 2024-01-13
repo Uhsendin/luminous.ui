@@ -27,8 +27,7 @@ function App() {
 					title="Tertiary"
 					description="Tertiary action should be discoverable but unobtrusive. Styling these actions like links is usually the best approach."
 				>
-					<div className="bg-blue-500/50 p-3">Component 1</div>
-					<div className="bg-blue-500/50 p-3">Component 1</div>
+					<Button variant="tertiary">Tertiary</Button>
 				</Section>
 				<Section
 					title="Destructive"

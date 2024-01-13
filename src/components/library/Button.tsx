@@ -15,6 +15,10 @@ const Button: React.FC<ButtonProps> = ({ variant = 'primary', ...props }) => {
 		switch (variant) {
 			case 'primary':
 				return 'border border-transparent py-3 text-white bg-emerald-500 hover:bg-emerald-600 focus:ring-emerald-500'
+			case 'secondary':
+				return 'border-2 border-gray-200 py-[0.688rem] hover:text-white text-emerald-500 hover:border-emerald-500 hover:bg-emerald-500 focus:ring-emerald-500'
+			case 'tertiary':
+				return 'border border-transparent py-3 underline-offset-4 ring-offset-white hover:underline text-emerald-500 hover:text-emerald-700 focus:ring-emerald-500'
 			default:
 				return ''
 		}
