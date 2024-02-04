@@ -15,6 +15,16 @@ function App() {
 				>
 					<Button>Default</Button>
 					<Button disabled>Disabled</Button>
+
+					<Button
+						colors={{
+							bg: 'bg-amber-500',
+							hoverBg: 'hover:bg-amber-600',
+							focusRing: 'focus:ring-amber-500',
+						}}
+					>
+						Amber
+					</Button>
 				</Section>
 
 				<Section
@@ -24,6 +34,18 @@ function App() {
 					<Button variant="secondary">Default</Button>
 					<Button variant="secondary" disabled>
 						Disabled
+					</Button>
+
+					<Button
+						variant="secondary"
+						colors={{
+							text: 'text-amber-500',
+							hoverBorder: 'hover:border-amber-500',
+							hoverBg: 'hover:bg-amber-500',
+							focusRing: 'focus:ring-amber-500',
+						}}
+					>
+						Amber
 					</Button>
 				</Section>
 
@@ -36,14 +58,24 @@ function App() {
 					<Button variant="tertiary" disabled>
 						Disabled
 					</Button>
+					<Button
+						variant="tertiary"
+						colors={{
+							text: 'text-amber-500',
+							hoverText: 'hover:text-amber-700',
+							focusRing: 'focus:ring-amber-500',
+						}}
+					>
+						Amber
+					</Button>
 				</Section>
-				<Section
-					title="Destructive"
-					description="Destructive actions typically result in the removal of an item and may result in an undesirable consequence."
-				>
-					<div className="bg-blue-500/50 p-3">Component 1</div>
-					<div className="bg-blue-500/50 p-3">Component 1</div>
-				</Section>
+				{/* <Section */}
+				{/* 	title="Destructive" */}
+				{/* 	description="Destructive actions typically result in the removal of an item and may result in an undesirable consequence." */}
+				{/* > */}
+				{/* 	<div className="bg-blue-500/50 p-3">Component 1</div> */}
+				{/* 	<div className="bg-blue-500/50 p-3">Component 1</div> */}
+				{/* </Section> */}
 			</Container>
 
 			<Container title="Component name" description="Component description">
